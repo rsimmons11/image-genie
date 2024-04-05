@@ -1,3 +1,5 @@
+"use server"
+
 import mongoose, { Mongoose } from 'mongoose';
 
 const MONGODB_URL = process.env.MONGODB_URL;
@@ -16,17 +18,33 @@ if(!cached) {
 }
 
 export const connectToDatabase = async () => {
-  if(cached.conn) return cached.conn;
+  console.log('Starting database connection attempt'); // Log start of connection attempt
 
-  if(!MONGODB_URL) throw new Error('Missing MONGODB_URL');
+  if(cached.conn) {
+    console.log('Reusing existing database connection'); // Log if reusing existing connection
+    return cached.conn;
+  }
+
+  if(!MONGODB_URL) {
+    console.error('Missing MONGODB_URL'); // Log error if connection string is missing
+    throw new Error('Missing MONGODB_URL');
+  }
+
+  console.log('Connecting to MongoDB:', MONGODB_URL); // Log database connection string
 
   cached.promise = 
     cached.promise || 
     mongoose.connect(MONGODB_URL, { 
-      dbName: 'Image Genie', bufferCommands: false 
+      dbName: 'imageGenie', bufferCommands: false 
     })
 
-  cached.conn = await cached.promise;
-
+  try {
+    cached.conn = await cached.promise;
+    console.log('Connected to the database');
+  } catch (error) {
+    console.error('Failed to connect to the database:', error);
+    throw error; // Rethrow the error for handling by the caller
+  }
+  
   return cached.conn;
 }
