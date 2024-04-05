@@ -25,6 +25,7 @@
     "react-dom": "^18",
     "shadcn-ui": "^0.8.0",
     "sheet": "^0.2.0",
+    "svix": "^1.21.0",
     "tailwind-merge": "^2.2.2",
     "tailwindcss-animate": "^1.0.7"
   },
