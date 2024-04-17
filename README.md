@@ -9,7 +9,8 @@
 
 ### [Live Site](https://image-genie.vercel.app/)
 
-![Restaurant Landing Page](public/assets/images/Image_Genie_screenshot.png)
+(public/assets/images/Image_Genie_screenshot.png)
+
 ---
 
 ## Description
