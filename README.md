@@ -5,9 +5,9 @@
 <img src="https://img.shields.io/github/issues-pr/rsimmons11/readme-template?color=darkorange&label=Pull%20Requests&style=for-the-badge">
 </p>
 
-# JourneyJunction
+# Image Genie
 
-### [Live Site](https://journeyjunction.onrender.com/)
+### [Live Site](https://image-genie.vercel.app/)
 
 ![Restaurant Landing Page](public/imgs/journeyJunction.png)
 ---
