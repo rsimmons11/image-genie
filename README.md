@@ -88,7 +88,7 @@ and many more, including code architecture and reusability
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [leonnoel](https://github.com/leonnoel)
+* [adrianhajdin](https://github.com/adrianhajdin)
 * [awesome-readme](https://github.com/matiassingers/awesome-readme)
 * [readme-template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
 * [dbader](https://github.com/dbader/readme-template)
