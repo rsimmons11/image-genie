@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+<img src="https://img.shields.io/github/forks/rsimmons11/readme-template?color=lgreen&style=for-the-badge">
+<img src="https://img.shields.io/github/stars/rsimmons11/readme-template?color=yellow&style=for-the-badge">
+<img src="https://img.shields.io/github/issues/rsimmons11/readme-template?color=red&style=for-the-badge">
+<img src="https://img.shields.io/github/issues-pr/rsimmons11/readme-template?color=darkorange&label=Pull%20Requests&style=for-the-badge">
+</p>
 
-## Getting Started
+# JourneyJunction
 
-First, run the development server:
+### [Live Site](https://journeyjunction.onrender.com/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![Restaurant Landing Page](public/imgs/journeyJunction.png)
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Description
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+JunctionJourney is your passport to a vibrant community of world travelers. Share your global adventures through captivating images, titles, and captions. Create posts, engage with fellow travelers, and explore the world through their lens. Your journey awaits – join JunctionJourney and let your wanderlust connect you to a worldwide expedition of experiences.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## Built With
 
-To learn more about Next.js, take a look at the following resources:
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* [Node.js](https://nodejs.org/en/about)
+* [Express.js](https://expressjs.com/)
+* [MongoDB](https://www.mongodb.com/)
+* [Bootstrap](https://getbootstrap.com)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+`npm install`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Create a `.env` file in config folder and add the following as `key = value`
+  - PORT = 2121 (can be any port example: 3000)
+  - DB_STRING = `your database URI`
+  - CLOUD_NAME = `your cloudinary cloud name`
+  - API_KEY = `your cloudinary api key`
+  - API_SECRET = `your cloudinary api secret`
+ 
+`npm start`
+
+---
+       
+## Contact
+
+<p align="center">
+  <a href="https://robsimmons.netlify.app/](https://robsimmons.netlify.app/">
+    <img height="50" src="https://github.com/rsimmons11/rsimmons11/assets/131081276/d81fc19e-ab30-4ffc-8f66-5067414619b4"
+  </a>
+  <a href="https://www.linkedin.com/in/robsimmons11">
+    <img height="48" src="https://github.com/rsimmons11/rsimmons11/assets/131081276/42a88d56-eb23-4fa5-b45a-1ae9e237a46c"/>
+  </a>
+  <a href="https://twitter.com/RobertS40455705">
+    <img height="48" src="https://github.com/rsimmons11/rsimmons11/assets/131081276/2b817e52-de07-4a33-b11f-8b15f90cdcee"/>
+  </a>
+  <a href="https://github.com/rsimmons11">
+    <img height="48" src="https://github.com/rsimmons11/rsimmons11/assets/131081276/e078162d-0f6b-414a-8d27-a5b7ec58776f"
+  </a>
+</p>
+
+---
+
+## Acknowledgments
+
+Inspiration, code snippets, etc.
+* [leonnoel](https://github.com/leonnoel)
+* [awesome-readme](https://github.com/matiassingers/awesome-readme)
+* [readme-template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
+* [dbader](https://github.com/dbader/readme-template)
+* [zenorocha](https://gist.github.com/zenorocha/4526327)
+
