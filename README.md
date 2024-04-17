@@ -9,12 +9,12 @@
 
 ### [Live Site](https://image-genie.vercel.app/)
 
-![Restaurant Landing Page](public/imgs/journeyJunction.png)
+![Restaurant Landing Page](public/imgs/Image_Genie_screenshot.png)
 ---
 
 ## Description
 
-JunctionJourney is your passport to a vibrant community of world travelers. Share your global adventures through captivating images, titles, and captions. Create posts, engage with fellow travelers, and explore the world through their lens. Your journey awaits – join JunctionJourney and let your wanderlust connect you to a worldwide expedition of experiences.
+Image Genie is an AI image SaaS platform that excels in image processing capabilities, integrates a secure payment infrastructure, offers advanced image search functionalities, and supports multiple AI features, including image restoration, recoloring, object removal, generative filling, and background removal.
 
 ---
 
