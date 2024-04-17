@@ -66,6 +66,8 @@ Image Genie is an AI image SaaS platform that excels in image processing capabil
 
 
 and many more, including code architecture and reusability 
+
+---
        
 ## Contact
 
