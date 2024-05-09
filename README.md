@@ -10,6 +10,7 @@
 ### [Live Site](https://image-genie.vercel.app/)
 
 ![Restaurant Landing Page](public/assets/images/Image_Genie_screenshot.png)
+
 ---
 
 ## Description
@@ -20,27 +21,51 @@ Image Genie is an AI image SaaS platform that excels in image processing capabil
 
 ## Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [Node.js](https://nodejs.org/en/about)
-* [Express.js](https://expressjs.com/)
-* [MongoDB](https://www.mongodb.com/)
-* [Bootstrap](https://getbootstrap.com)
+- Next.js
+- TypeScript
+- MongoDB
+- Clerk
+- Cloudinary
+- Stripe
+- Shadcn
+- TailwindCSS
 
 ---
 
-## Installation
+## <a name="features">🔋 Features</a>
 
-`npm install`
+👉 **Authentication and Authorization**: Secure user access with registration, login, and route protection.
 
-- Create a `.env` file in config folder and add the following as `key = value`
-  - PORT = 2121 (can be any port example: 3000)
-  - DB_STRING = `your database URI`
-  - CLOUD_NAME = `your cloudinary cloud name`
-  - API_KEY = `your cloudinary api key`
-  - API_SECRET = `your cloudinary api secret`
- 
-`npm start`
+👉 **Community Image Showcase**: Explore user transformations with easy navigation using pagination
+
+👉 **Advanced Image Search**: Find images by content or objects present inside the image quickly and accurately
+
+👉 **Image Restoration**: Revive old or damaged images effortlessly
+
+👉 **Image Recoloring**: Customize images by replacing objects with desired colors easily
+
+👉 **Image Generative Fill**: Fill in missing areas of images seamlessly
+
+👉 **Object Removal**: Clean up images by removing unwanted objects with precision
+
+👉 **Background Removal**: Extract objects from backgrounds with ease
+
+👉 **Download Transformed Images**: Save and share AI-transformed images conveniently
+
+👉 **Transformed Image Details**: View details of transformations for each image
+
+👉 **Transformation Management**: Control over deletion and updates of transformations
+
+👉 **Credits System**: Earn or purchase credits for image transformations
+
+👉 **Profile Page**: Access transformed images and credit information personally
+
+👉 **Credits Purchase**: Securely buy credits via Stripe for uninterrupted use
+
+👉 **Responsive UI/UX**: A seamless experience across devices with a user-friendly interface
+
+
+and many more, including code architecture and reusability 
 
 ---
        
@@ -66,7 +91,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [leonnoel](https://github.com/leonnoel)
+* [adrianhajdin](https://github.com/adrianhajdin)
 * [awesome-readme](https://github.com/matiassingers/awesome-readme)
 * [readme-template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
 * [dbader](https://github.com/dbader/readme-template)
